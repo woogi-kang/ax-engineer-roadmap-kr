@@ -1,0 +1,34 @@
+name: Roadmap gap
+description: 빠진 역량, 단계, 판단 기준을 제안합니다.
+title: "[Roadmap] "
+labels:
+  - roadmap
+body:
+  - type: textarea
+    id: gap
+    attributes:
+      label: 어떤 내용이 빠져 있나요?
+      description: 현재 독자가 무엇을 판단하거나 수행하기 어려운지 적어 주세요.
+    validations:
+      required: true
+  - type: textarea
+    id: location
+    attributes:
+      label: 어느 위치에 필요한가요?
+      description: 관련 파일이나 로드맵 영역을 적어 주세요.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 근거
+      description: 공식 자료, 공개 저장소, 연구, 재현 가능한 현장 증거를 연결해 주세요.
+    validations:
+      required: true
+  - type: textarea
+    id: limits
+    attributes:
+      label: 적용 범위와 반례
+      description: 특정 산업·회사·기술에만 해당하는지 적어 주세요.
+    validations:
+      required: true

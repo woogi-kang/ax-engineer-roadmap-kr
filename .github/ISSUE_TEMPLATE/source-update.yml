@@ -1,0 +1,31 @@
+name: Source update
+description: 오래되거나 잘못 연결된 출처와 주장을 수정합니다.
+title: "[Source] "
+labels:
+  - source
+body:
+  - type: input
+    id: file
+    attributes:
+      label: 관련 파일
+      placeholder: roadmap/role-model.md
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: 현재 주장 또는 링크
+    validations:
+      required: true
+  - type: textarea
+    id: replacement
+    attributes:
+      label: 새 근거와 확인일
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: 무엇을 바꿔야 하나요?
+    validations:
+      required: true

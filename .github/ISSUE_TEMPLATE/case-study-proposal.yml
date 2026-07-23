@@ -1,0 +1,46 @@
+name: Case study proposal
+description: 공개 가능한 AX 업무 전환 사례를 제안합니다.
+title: "[Case] "
+labels:
+  - case-study
+body:
+  - type: dropdown
+    id: case_type
+    attributes:
+      label: 사례 유형
+      options:
+        - 실제 사례를 익명화
+        - 공개 자료 기반 시뮬레이션
+        - 개인 실습
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: 문제와 사용자
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 공개 가능한 근거
+      description: 데이터 범위, 실행 기록, 평가, 사용자 검수 중 공개 가능한 내용을 적어 주세요.
+    validations:
+      required: true
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: 공개 안전
+      options:
+        - label: 회사·고객·동료를 재식별할 수 있는 정보가 없습니다.
+          required: true
+        - label: 인증정보·개인정보·비공개 원문이 없습니다.
+          required: true
+        - label: 실제 결과와 가설을 구분했습니다.
+          required: true
+  - type: textarea
+    id: limits
+    attributes:
+      label: 한계와 주장하지 않는 것
+    validations:
+      required: true

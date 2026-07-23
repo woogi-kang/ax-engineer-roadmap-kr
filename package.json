@@ -1,0 +1,10 @@
+{
+  "name": "ax-engineer-roadmap-kr",
+  "version": "0.1.0",
+  "private": true,
+  "description": "한국어 AX Engineer 실전 로드맵",
+  "scripts": {
+    "check": "node scripts/check-links.mjs && node scripts/check-roadmap.mjs"
+  },
+  "license": "MIT"
+}

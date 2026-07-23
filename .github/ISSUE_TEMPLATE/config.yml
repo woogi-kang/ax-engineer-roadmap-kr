@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 공개하기 어려운 안전 문제
+    url: https://github.com/woogi-kang
+    about: 저장소 소유자의 GitHub 프로필에 공개된 연락 수단을 이용해 주세요.

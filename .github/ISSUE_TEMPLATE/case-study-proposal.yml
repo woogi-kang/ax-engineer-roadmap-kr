@@ -1,5 +1,5 @@
 name: Case study proposal
-description: 공개 가능한 AX 업무 전환 사례를 제안합니다.
+description: 공개 가능한 AX 업무 전환 사례를 제안합니다. / Propose a publishable AX workflow transformation case.
 title: "[Case] "
 labels:
   - case-study
@@ -7,40 +7,40 @@ body:
   - type: dropdown
     id: case_type
     attributes:
-      label: 사례 유형
+      label: 사례 유형 / Case type
       options:
-        - 실제 사례를 익명화
-        - 공개 자료 기반 시뮬레이션
-        - 개인 실습
+        - 실제 사례를 익명화 / De-identified real case
+        - 공개 자료 기반 시뮬레이션 / Public-data simulation
+        - 개인 실습 / Individual practice
     validations:
       required: true
   - type: textarea
     id: problem
     attributes:
-      label: 문제와 사용자
+      label: 문제와 사용자 / Problem and users
     validations:
       required: true
   - type: textarea
     id: evidence
     attributes:
-      label: 공개 가능한 근거
-      description: 데이터 범위, 실행 기록, 평가, 사용자 검수 중 공개 가능한 내용을 적어 주세요.
+      label: 공개 가능한 근거 / Publishable evidence
+      description: 데이터 범위, 실행 기록, 평가, 사용자 검수 중 공개 가능한 내용을 적어 주세요. / Describe publishable data scope, execution records, evaluation, or user acceptance.
     validations:
       required: true
   - type: checkboxes
     id: safety
     attributes:
-      label: 공개 안전
+      label: 공개 안전 / Public safety
       options:
-        - label: 회사·고객·동료를 재식별할 수 있는 정보가 없습니다.
+        - label: 회사·고객·동료를 재식별할 수 있는 정보가 없습니다. / No information can re-identify a company, customer, or colleague.
           required: true
-        - label: 인증정보·개인정보·비공개 원문이 없습니다.
+        - label: 인증정보·개인정보·비공개 원문이 없습니다. / No credentials, personal data, or confidential source text are included.
           required: true
-        - label: 실제 결과와 가설을 구분했습니다.
+        - label: 실제 결과와 가설을 구분했습니다. / Actual outcomes and hypotheses are separated.
           required: true
   - type: textarea
     id: limits
     attributes:
-      label: 한계와 주장하지 않는 것
+      label: 한계와 주장하지 않는 것 / Limitations and claims not made
     validations:
       required: true

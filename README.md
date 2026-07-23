@@ -1,8 +1,10 @@
 # AX Engineer Roadmap Korea
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Language: Korean](https://img.shields.io/badge/Language-Korean-0f766e.svg)](#english-summary)
+[![Language: Korean](https://img.shields.io/badge/Language-Korean-0f766e.svg)](README.md)
 [![Status: v0.1.0](https://img.shields.io/badge/Status-v0.1.0-f59e0b.svg)](CHANGELOG.md)
+
+[한국어](README.md) | [English](en/README.md)
 
 한국 조직 안에서 AI를 실제 업무에 배포하고, 운영 가능한 변화로 정착시키는 **AX Engineer 실전 로드맵**이다.
 
@@ -166,7 +168,3 @@ VOC 수집
 - 기준일: `2026-07-23`
 - 상태: AX Engineer 단일 직무 기준의 초기 공개본
 - 라이선스: [MIT](LICENSE)
-
-## English summary
-
-**AX Engineer Roadmap Korea** is a Korean-language, evidence-oriented field guide for internal AI transformation engineers. It connects role competencies, an eight-stage workflow transformation lifecycle, organizational AI maturity, reusable templates, and anonymized case studies. The project is vendor-neutral and focuses on production adoption, operational safety, handoff, and repeatable organizational learning.
